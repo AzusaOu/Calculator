@@ -71,8 +71,10 @@ int calit(char equation[], int len)
 		}
 		else
 		{
+		// >>> When it comes to STM32, delete this block
 		    if(i == len-1)
                 count--;
+		// <<<
 			sum[iSum] = str2num(tmp, count);
 			++iSum;
 			count = 0;
